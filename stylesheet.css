@@ -1,0 +1,97 @@
+/* Resets
+--------------------------------------------------------------------------------*/
+
+ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, 
+fieldset, input {
+	margin: 0;
+	padding: 0;
+}
+
+a img {
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* General Styling and Structure
+--------------------------------------------------------------------------------*/
+html { height:100%; }
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #8e8e8e;
+	background: #fff;
+	font-weight:300;
+	height:100%;
+	-webkit-font-smoothing: antialiased;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+#header-wrap,
+#banner-wrap,
+#nav-wrap,
+#main-wrap,
+#footer-wrap
+{
+        width:100%;
+}
+
+a {
+	color: #26cfc1;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+h2 {
+	font-size: 28px;
+	padding: .5em 0;
+	line-height: 1.2;
+	font-weight: 200;
+	color: #2b2b2b;
+}
+
+p {
+	padding: .5em 0;
+}
+
+/* Header
+--------------------------------------------------------------------------------*/
+
+#header {
+	position: relative;
+	top: 0px;
+}
+
+.logo {
+
+}
+
+#navbar {
+	left:50%;
+	position: fixed;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+#navbar ul {
+	list-style-type: none;
+	position: fixed;
+	margin: 10px;
+}
+
+#navbar li {
+	display: inline;
+	padding: 5px;
+	color: #26cfc1;
+}
+
+
