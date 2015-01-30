@@ -62,31 +62,53 @@ h2 {
 p {
 	padding: .5em 0;
 }
-
+div {
+	display: block;
+}
+nav {
+	display: block;
+	position: relative;
+}
 /* Header
 --------------------------------------------------------------------------------*/
 
-#header {
-	position: relative;
-	top: 0px;
-}
 
 .logo {
 
 }
 
-#navbar {
-	left:50%;
+.menu {
+	left: 80px;
+	top: 0px;
+	display: block;
+	height: 80px;
+	width: auto;
+	padding: 0;
+	max-width: 100%;
+}
+
+header#navbar {
+	margin-bottom: 0;
 	position: fixed;
-	margin-top: 10px;
-	margin-left: 50px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: block;
+}
+header .nav-mask {
+	height: 80px;
+	width: 40px;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 #navbar ul {
 	list-style-type: none;
-	position: fixed;
+	position: relative;
 	margin: 10px;
 }
+
 
 #navbar li {
 	display: inline;
@@ -94,4 +116,20 @@ p {
 	color: #26cfc1;
 }
 
+#wrapper {
+	top: 0;
+	position: relative;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	width: auto;
+}
+
+.spacer {
+	position: relative;
+	width: 100%;
+	height: 50px;
+}
 
