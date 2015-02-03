@@ -42,8 +42,7 @@ body {
 
 #title {
 	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+	top: 25px;
 
 	display: block;
 	float: left;
