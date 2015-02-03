@@ -43,6 +43,7 @@ body {
 #title {
 	position: relative;
 	top: 25px;
+	left: 15px;
 
 	display: block;
 	float: left;
@@ -62,14 +63,17 @@ body {
 	margin-top: 15px;
 }
 
+.nav ul {
+	float: right;
+}
+
 .nav ul li {
 	list-style: none;
-	float: right;
+	float: left;
 }
 
 .nav ul li a {
 	display: inline-block;
-
 	height: 20px;
 	padding: 10px 15px 10px 15px;
 	color: #84A0AE;
@@ -78,6 +82,7 @@ body {
 	text-transform: uppercase;
 }
 
+
 .nav ul li a:hover {
 	color: white;
 	background-color: #84A0AE;
@@ -85,9 +90,9 @@ body {
 }
 
 
-
 .break {
-	width: 100%;
+	width: 1024px;
+	margin: 0 auto;
 	height: 0;
 	border-bottom: 1px dashed #84A0AE;
 
