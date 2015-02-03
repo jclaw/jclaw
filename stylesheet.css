@@ -30,6 +30,7 @@ body {
 
 	width: 1024px;
 	margin: 0 auto;
+	position: relative;
 }
 
 /* Header
@@ -41,12 +42,12 @@ body {
 #title {
 	position: relative;
 	top: 25px;
-	left: 15px;
+	/* left: 15px; */
 
 	display: block;
 	float: left;
 
-	font-size: 35px;
+	font-size: 34px;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #84A0AE;
@@ -88,11 +89,21 @@ body {
 }
 
 
-.break {
+.horiz-rule {
 	width: 1024px;
 	margin: 0 auto;
 	height: 0;
 	border-bottom: 1px dashed #84A0AE;
+
+}
+
+#vert-rule {
+	width: 0;
+	height: 100%;
+	position: absolute;
+	z-index: 100;
+	left: 341px;
+	border-right: 1px dashed #84A0AE;
 
 }
 
@@ -105,5 +116,43 @@ body {
 --------------------------------------------------------------------------------*/
 
 .pageContent {
+	position: relative;
+	top: 23px;
+}
 
+.crop-image {
+	height: 200px;
+	width: 200px;
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.resize {
+	width: 200px;
+	height: auto;
+}
+
+#aboutBox {
+	position: relative;
+	z-index: 1;
+	width: 272px;
+	height: auto;
+	background-color: #84A0AE;
+	padding: 23px;
+}
+
+#aboutBox div {
+	text-align: center;
+	margin: auto;
+	display: block;
+
+}
+
+#aboutBox p {
+	padding: 14px 0 0 0;
 }
