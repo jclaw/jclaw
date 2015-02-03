@@ -50,7 +50,7 @@ a {
 #leftColumn > div {
 	width: 272px;
 	height: auto;
-	background-color: #84A0AE;
+	background-color: #dcdfe0;
 	padding: 23px;
 }
 
@@ -67,10 +67,15 @@ a {
 #rightColumn > div {
 	position: relative;
 	left: 23px;
-	background-color: #84A0AE;
+	background-color: #dcdfe0;
 	width: 613px;
-	height: 20px;
-	padding: 23px;
+	height: 23px;
+	padding: 0 23px 0 23px;
+	margin: 0 0 23px 0;
+}
+
+#rightColumn > div:last-child {
+	height: 400px;
 }
 
 /* Header
@@ -196,11 +201,11 @@ a {
 	height: 20px;
 	width: 80px;
 	padding: 10px 15px 10px 15px;
-	background-color: white;
+	background-color: #84a0ae;
 	
 	border-radius: 5px;
 	text-align: center;
 	font-weight: bold;
-	color: black;
+	color: white;
 }
 
