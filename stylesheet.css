@@ -27,17 +27,15 @@ body {
 	font-weight:300;
 	height:100%;
 	-webkit-font-smoothing: antialiased;
-}
 
-.header {
-
-}
-
-
-.headerContent {
 	width: 1024px;
-	height: 70px;
 	margin: 0 auto;
+}
+
+/* Header
+--------------------------------------------------------------------------------*/
+.headerContent {
+	height: 70px;
 }
 
 #title {
@@ -103,4 +101,9 @@ body {
 	top: -29px;
 }
 
+/* Main text styling
+--------------------------------------------------------------------------------*/
 
+.pageContent {
+
+}
