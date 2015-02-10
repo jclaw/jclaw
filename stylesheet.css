@@ -44,36 +44,31 @@ a {
 #singleColumn {
 	
 	display: inline-block;
-	width: 341px;
+	width: 318px;
 	height: auto;
 
 
 }
 
 #singleColumn > div {
-	width: 272px;
+	width: 318px;
 	height: auto;
-	background-color: #dcdfe0;
-	padding: 23px;
+    margin: 0 0 23px 0;
 }
 
 #doubleColumn {
 	
 	display: inline-block;
 	left: 341px;
-	width: 682px;
+	width: 659px;
 	height: auto;
 
 
 }
 
 #doubleColumn > div {
-	position: relative;
-	left: 23px;
-	background-color: #dcdfe0;
-	width: 613px;
-	height: 23px;
-	padding: 0 23px 0 23px;
+	width: 659px;
+	height: auto;
 	margin: 0 0 23px 0;
 }
 
@@ -134,6 +129,11 @@ a {
 
 }
 
+.nal ul li a:active {
+    color: white;
+	background-color: #84A0AE;
+}
+
 
 .horiz-rule {
 	width: 1024px;
@@ -143,15 +143,7 @@ a {
 
 }
 
-.vert-rule {
-	width: 0;
-	height: 100%;
-	position: absolute;
-	z-index: 100;
-	left: 341px;
-	border-right: 1px dashed #84A0AE;
 
-}
 
 #nav-align {
 	position: relative;
@@ -161,9 +153,18 @@ a {
 /* Main text styling
 --------------------------------------------------------------------------------*/
 
+.vert-rule {
+	width: 0;
+	height: 100%;
+	position: absolute;
+	z-index: 100;
+	border-right: 1px dashed #84A0AE;
+
+}
+
 #pageContent {
 	position: relative;
-    padding: 23px 0 23px 0;
+    
 }
 
 .crop-image {
@@ -178,11 +179,15 @@ a {
     border-radius: 50%;
 }
 
-.resize {
+.resize200 {
 	width: 200px;
 	height: auto;
 }
 
+#aboutBox {
+    padding: 23px 0;
+    background-color: #dcdfe0;
+}
 #aboutBox div {
 	text-align: center;
 	margin: auto;
@@ -221,8 +226,23 @@ a {
 
 .left {
     float: left;
+    padding: 23px 23px 23px 0;
 }
 
 .right {
     float: right;
+    padding: 23px 0 23px 23px;
+}
+
+.x341px {
+    left: 341px;
+}
+
+.x683px {
+    left: 683px;
+}
+
+.resizeFit {
+    width:inherit;
+    height: auto;
 }
